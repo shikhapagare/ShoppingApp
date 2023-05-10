@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./FormCSS.css">
+</head>
+<body>
+	<form name="registrationForm" action ="RegistrationServlet" method="post">
+		<table>
+			<tbody>
+				<tr>
+					<td><label>Name : </label></td>
+					<td><input type="text" name="name" id="id_name"></td>
+				</tr>
+				<tr>
+					<td><label>Email Id : </label></td>
+					<td><input type="text" name="emailId" id="id_emailId"></td>
+				</tr>
+				<tr>
+					<td><label>PassWord : </label></td>
+					<td><input type ="password" name="password" id="id_password"></td>
+				</tr>
+				<tr>
+					<br>
+				</tr>
+				<tr>
+					<td align="right"><input type ="submit" value="Submit"></td>
+					<td align ="left"><input type ="button" onclick="location.href = 'LoginPage.html'" value="All Ready User"></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
